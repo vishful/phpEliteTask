@@ -1,0 +1,116 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+
+    background-color: black;
+}
+
+.container{
+    width:600px;
+    height: 400px;
+   margin: 0 auto;
+   display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 50px;
+  border: 2px black;
+  border-style: double;
+  background-color: peachpuff;
+  padding: 20px;
+}
+
+.btn{
+
+    background: #222;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 85px;
+  }
+
+  .buttonBelt{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .b1{
+
+    background: #222;
+    height: 50px;
+    min-width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+
+  }
+  
+  .b2{ 
+    background: #222;
+    height: 50px;
+    min-width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+
+  .b3{
+    background: #222;
+    height: 50px;
+    min-width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  .btn:hover,.b1:hover,.b2:hover,.b3:hover{
+      background-color: white;
+      color: black;
+  }
